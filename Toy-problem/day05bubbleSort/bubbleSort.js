@@ -26,9 +26,9 @@ var bubbleSort = function(array) {
   for (var i = 0; i < array.length; i++){
     for(var j = 0; j < array.length; j++){
       if(array[j] > array[j+1]){
-        var newarr = arr[j];
+        var value = arr[j];
         arr[j] = arr[j+1];
-        arr[j+1] = newarr
+        arr[j+1] = value
       }
     }
   }
